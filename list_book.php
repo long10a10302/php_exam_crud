@@ -31,8 +31,8 @@
                 <td><?=$book['author']?></td>
                 <td><?=$book['price']?></td>
                 <td>
-                    <a href="update_book.php?id=<?=$book['id']?>">Update</a>
-                    <a href="delete_book.php?id<?=$book['id']?>">Delete</a>
+                    <a href="update_book.php?id=<?=$book['book_id']?>">Update</a>
+                    <a href="delete_book.php?id=<?=$book['book_id']?>">Delete</a>
                 </td>
             </tr>
         <?php } ?>
