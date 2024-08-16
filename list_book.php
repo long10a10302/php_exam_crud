@@ -25,6 +25,7 @@
             <th>Action</th>
         </thead>
         <?php
+        
         foreach ($result as $book) { ?>
             <tr>
                 <td><?=$book['title']?></td>
